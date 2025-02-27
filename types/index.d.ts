@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 
 declare type SearchParamProps = {
   params: { [key: string]: string };
@@ -193,7 +192,7 @@ declare interface AuthFormProps {
 
 declare interface BankDropdownProps {
   accounts: Account[];
-  setValue?: UseFormSetValue<any>;
+  setValue?: UseFormSetValue <any>;
   otherStyles?: string;
 }
 
